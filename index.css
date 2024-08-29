@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    height: auto;
+    overflow-y: scroll;
+    background-color: rgb(255, 241, 215);
+}
+@font-face {
+    font-family: nature;
+    src: url(/fonts/NatureBeautyPersonalUse-9Y2DK.ttf);
+}
+@font-face {
+    font-family: strike;
+    src: url(/fonts/ProtestStrike-Regular.ttf);
+}
+
+@font-face {
+    font-family: protest;
+    src: url(/fonts/ProtestRevolution-Regular.ttf);
+}
+
+@font-face {
+    font-family: banana;
+    src: url(/fonts/BananasItalicPersonalUseRegular-WyBxO.ttf);
+}
+#revealhire{
+    z-index: 2;
+    color: rgb(255, 185, 55);
+    height: 7vh;
+    position: fixed;
+    right: 3vw;
+    width: 9vw;
+    bottom: 3vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#mail{
+    outline: none;
+    border: 0px solid black;
+    background-image: url(/image/icons8-mail-30.png);
+    background-size: contain;
+}
+.buttonstore{
+    margin-left: 21px;
+  width: 93px;
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+#cv{
+    background-image: url(/image/cv.png);
+    outline: none;
+    border: 0px solid black;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+.btnhire{
+    outline: none;
+    z-index: 3;
+    outline: none;
+    border: wheat solid 0px;
+    background-color: black;
+    color: wheat;
+    width: 9vw;
+    height: 7vh;
+    position: fixed;
+    right: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    bottom: 3vh;
+    overflow: hidden;
+}
+.hireme{
+    z-index: 3;
+}
+.circle1{
+    margin: 50px;
+    z-index: 2;
+    border-radius: 50%;
+    position: absolute;
+    width: 0vw;
+    height: 0vw;
+}
+.circle2{
+    margin: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    
+}
+.circle3{
+    margin: 50px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+}
+
+
+
+

@@ -1,0 +1,36 @@
+.secondsection{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 50vw 40vw;
+    grid-template-rows: 70vh;
+    justify-content: space-between;
+    align-content: center;
+    gap: 3vw;
+}
+.secondleft{
+    background: rgb(19, 17, 13);
+    background: linear-gradient(180deg, rgb(102, 72, 16) 3%, rgba(255,241,215,0) 33%, rgba(255,241,215,0) 50%, rgba(255,241,215,0) 67%, rgb(177, 126, 33) 97%); 
+    margin-left: 5vw;
+    /* background: rgb(255,241,215);
+    background: linear-gradient(180deg, rgba(255,241,215,1) 3%, rgba(255,241,215,0) 33%, rgba(255,241,215,0) 50%, rgba(255,241,215,0) 67%, rgba(255,241,215,1) 97%); 
+    margin-left: 5vw; */
+
+}
+.secondright{
+    margin-right: 2vw;
+    background-color: blue;
+}
+#second11{
+    width: 100%;
+    height: 100%;
+}
+#linee{
+    width: 11px;
+    background-color: red;
+    height: 800px;
+    border-radius: 2rem;
+    position: absolute;
+    left: 8vw;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    gap: 10px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background-color: red;
+}
+#box1{
+    background-color: antiquewhite;
+
+}
+#box3{
+    background-color: black;
+}
