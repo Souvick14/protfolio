@@ -24,6 +24,11 @@ const lightt = () => {
   document.getElementById("souvick2").style.color = "rgba(0, 0, 0, 0.642)";
   document.getElementById("backi").transition = " all 0.5s ease";
   document.getElementById("devi").filter = " brightness(0)";
+  let navc=document.getElementsByClassName("navelement1");
+  for (let index = 0; index < navc.length; index++) {
+    navc[index].style.color = "black";
+    
+  }
   document.getElementById("backi").src =
     "/image/starfield-artwork-5400x4333-11746.jpg";
   document.getElementById("shootingstar").style.display = "none";
@@ -42,13 +47,13 @@ const darkk = () => {
   document.body.style.color = "#3484a4";
   document.getElementById("darkmode").style.transition = " all 0.5s ease";
   document.getElementById("darkmode").style.backgroundColor =
-    "rgba(20, 111, 255, 0.58)";
+  "rgba(20, 111, 255, 0.58)";
   document.getElementById("darkmode").style.backgroundImage =
-    "url(/image/icons8-sun-20.png)";
+  "url(/image/icons8-sun-20.png)";
   document.getElementById("souvick2").style.transition = " all 0.5s ease";
   document.getElementById("souvick2").style.color = "rgba(135, 206, 235, 0.43)";
   document.getElementById("revealhire").style.backgroundColor =
-    "rgb(0, 84, 140)";
+  "rgb(0, 84, 140)";
   document.getElementById("backi").transition = " all 0.5s ease";
   document.getElementById("backi").src = "/image/night.jpg";
   document.getElementById("nv1").style.backgroundColor = "rgb(0, 31, 42)";
@@ -63,6 +68,11 @@ const darkk = () => {
   )[0].innerHTML = `<img src="/image/image-removebg-preview-dark.png" id="devi" alt="backimg">`;
   document.getElementById("moon").style.top = "14vw";
   document.getElementById("moon").style.left = "-33vw";
+  let navc=document.getElementsByClassName("navelement1");
+  for (let index = 0; index < navc.length; index++) {
+    navc[index].style.color = "rgb(52, 132, 164)";
+    
+  }
 };
 
 document.getElementById("itro").addEventListener("click", function (e) {
