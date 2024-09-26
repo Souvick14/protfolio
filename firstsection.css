@@ -77,11 +77,11 @@
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
-    border: 3px solid #f3d9d9;
+    border: 3px solid black;
     border-radius: 10px;
     background-color: transparent;
     font-weight: bold;
-    color: wheat;
+    color: rgb(253, 210, 130);
 }
 #itroduce{
     position: absolute;
@@ -281,26 +281,29 @@
     position: relative;
 }
 #filpaagin{
+    font-size: 20px;
     top: 10px;
     left: 50px;
     transform: translate(300px,300px);
-  
     z-index: 3;
-  outline: none;
-  border: wheat solid 0px;
-  background-color: black;
-  color: wheat;
-  width: 9vw;
-  height: 7vh;
-  position: relative;
-  right: 3vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 2rem;
-  bottom: 3vh;
-  overflow: hidden;
+    outline: none;
+    border: wheat solid 0px;
+    background-color: black;
+    color: wheat;
+    width: 9vw;
+    height: 7vh;
+    position: relative;
+    right: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    bottom: 3vh;
+    overflow: hidden;
 
+}
+#filp1{
+    z-index: 4;
 }
 #moon{
     opacity: 0;
@@ -312,6 +315,9 @@
     top: 38vw;
     left: -58vw;
     animation: moonani 5s ease-in-out 0s infinite normal;
+}
+#filpaagin:hover{
+    color: black;
 }
 #moon1{
     width: 100%;
@@ -326,4 +332,36 @@
         transform: rotateZ(360deg);
     }
     
+}
+
+#cir1{
+    background-color: #f5ae2b;
+}
+#cir2{
+    background-color: #f3ba52;
+}
+#cir3{
+    background-color: wheat;
+}
+
+#cirfilp1{
+    background-color: #f5ae2b;
+}
+#cirfilp2{
+    background-color: #f3ba52;
+}
+#cirfilp3{
+    background-color: wheat;
+}
+#hide{
+    width: 70vw;
+  height: 1vh;
+    background: transparent;
+background: linear-gradient(0deg, rgba(255,241,215,1) 8%, rgba(255,241,215,0.7100375306372548) 46%, rgba(255,241,215,0) 100%);
+    position: relative;
+    bottom: 0;
+    top: 89vh;
+    z-index: 5;
+  display: flex;
+  float: inline-start;
 }

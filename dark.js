@@ -2,13 +2,64 @@ let dark = document.getElementById("darkmode");
 dark.addEventListener("click", function (e) {
   if (dark.value == "false") {
     darkk();
+    dark2();
     dark.value = "true";
   } else {
     lightt();
     dark.value = "false";
   }
 });
+
+
+
+const dark2 = () =>{
+  document.getElementById("filpaagin").addEventListener("mouseover", function() {
+    document.getElementById("filp1").style.color = "black";
+});
+
+document.getElementById("filpaagin").addEventListener("mouseout", function() {
+  document.getElementById("filp1").style.color = "#3484a4";  // Revert to original color
+});
+  document.getElementById("btn").addEventListener("mouseover", function() {
+    document.getElementById("hire").style.color = "black";
+});
+
+document.getElementById("btn").addEventListener("mouseout", function() {
+  document.getElementById("hire").style.color = "#3484a4";  // Revert to original color
+});
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const lightt = () => {
+  document.getElementById("hide").style.background="linear-gradient(0deg, rgba(255,241,215,1) 8%, rgba(255,241,215,0.7100375306372548) 46%, rgba(255,241,215,0) 100%)";
+  document.getElementById("hire").style.color="wheat";
+  document.getElementById("filp1").style.color="wheat";
+  document.getElementById("cir1").style.backgroundColor ="#f5ae2b";
+  document.getElementById("cir2").style.backgroundColor ="#f3ba52";
+  document.getElementById("cir3").style.backgroundColor ="wheat";
+  document.getElementById("cirfilp1").style.backgroundColor ="#f5ae2b";
+  document.getElementById("cirfilp2").style.backgroundColor ="#f3ba52";
+  document.getElementById("cirfilp3").style.backgroundColor ="wheat";
   document.getElementById("nv1").style.backgroundColor = "#FFF1D7";
   document.body.style.backgroundColor = " all 0.5s ease";
   document.body.style.backgroundColor = "rgb(255, 241, 215)";
@@ -16,7 +67,7 @@ const lightt = () => {
   document.getElementById("darkmode").style.transition = " all 0.5s ease";
   document.getElementById("darkmode").style.backgroundColor = "rgb(3, 38, 94)";
   document.getElementById("darkmode").style.backgroundImage =
-    "url(/image/icons8-moon-20.png)";
+  "url(/image/icons8-moon-20.png)";
   document.getElementById("revealhire").style.transition = " all 0.5s ease";
   document.getElementById("revealhire").style.backgroundColor =
     "rgb(255, 185, 55)";
@@ -24,10 +75,9 @@ const lightt = () => {
   document.getElementById("souvick2").style.color = "rgba(0, 0, 0, 0.642)";
   document.getElementById("backi").transition = " all 0.5s ease";
   document.getElementById("devi").filter = " brightness(0)";
-  let navc=document.getElementsByClassName("navelement1");
+  let navc = document.getElementsByClassName("navelement1");
   for (let index = 0; index < navc.length; index++) {
     navc[index].style.color = "black";
-    
   }
   document.getElementById("backi").src =
     "/image/starfield-artwork-5400x4333-11746.jpg";
@@ -36,24 +86,34 @@ const lightt = () => {
     ".devim"
   )[0].innerHTML = `<img src="/image/image-removebg-preview.png" id="devi" alt="backimg">`;
   document.getElementById("moon").style.transition = "all 0.5s ease";
-
+  
   document.getElementById("moon").style.top = "38vw";
   document.getElementById("moon").style.display = "none";
   document.getElementById("moon").style.left = "-58vw";
 };
 const darkk = () => {
+  
+  document.getElementById("hide").style.background="linear-gradient(0deg, rgba(0,31,42,1) 8%, rgba(0,31,42,0.6680207239145659) 46%, rgba(0,31,42,0) 100%)";
+  document.getElementById("hire").style.color="#58a3c2";
+  document.getElementById("filp1").style.color="#58a3c2";
+  document.getElementById("cir1").style.backgroundColor ="#3484a4";
+  document.getElementById("cir2").style.backgroundColor ="#58a3c2";
+  document.getElementById("cir3").style.backgroundColor ="#4cc1f0";
+  document.getElementById("cirfilp1").style.backgroundColor ="#3484a4";
+  document.getElementById("cirfilp2").style.backgroundColor ="#58a3c2";
+  document.getElementById("cirfilp3").style.backgroundColor ="#4cc1f0";
   document.body.style.backgroundColor = " all 0.5s ease";
   document.body.style.backgroundColor = "rgb(0, 31, 42)";
   document.body.style.color = "#3484a4";
   document.getElementById("darkmode").style.transition = " all 0.5s ease";
   document.getElementById("darkmode").style.backgroundColor =
-  "rgba(20, 111, 255, 0.58)";
+    "rgba(20, 111, 255, 0.58)";
   document.getElementById("darkmode").style.backgroundImage =
-  "url(/image/icons8-sun-20.png)";
+    "url(/image/icons8-sun-20.png)";
   document.getElementById("souvick2").style.transition = " all 0.5s ease";
   document.getElementById("souvick2").style.color = "rgba(135, 206, 235, 0.43)";
   document.getElementById("revealhire").style.backgroundColor =
-  "rgb(0, 84, 140)";
+    "rgb(0, 84, 140)";
   document.getElementById("backi").transition = " all 0.5s ease";
   document.getElementById("backi").src = "/image/night.jpg";
   document.getElementById("nv1").style.backgroundColor = "rgb(0, 31, 42)";
@@ -68,10 +128,9 @@ const darkk = () => {
   )[0].innerHTML = `<img src="/image/image-removebg-preview-dark.png" id="devi" alt="backimg">`;
   document.getElementById("moon").style.top = "14vw";
   document.getElementById("moon").style.left = "-33vw";
-  let navc=document.getElementsByClassName("navelement1");
+  let navc = document.getElementsByClassName("navelement1");
   for (let index = 0; index < navc.length; index++) {
     navc[index].style.color = "rgb(52, 132, 164)";
-    
   }
 };
 

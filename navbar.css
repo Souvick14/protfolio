@@ -19,6 +19,10 @@ li{
     list-style-type: none;
     font-family: nature;
 }
+a{
+    list-style-type: none;
+    font-family: nature;
+}
 .navelements{
 
     width: 30vw;
@@ -53,4 +57,8 @@ main{
     /* background-color: rgb(255, 255, 0); */
     outline: none;
     border: 0px solid black;
+}
+nav ul a:hover,
+nav ul a.active {
+    color: rgb(44, 0, 138);
 }

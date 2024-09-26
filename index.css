@@ -44,11 +44,13 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    background: #875d03;
+    background: linear-gradient(274deg, #c28922 7%, rgba(246, 189, 83,0.5) 79%); 
 }
 #mail{
     outline: none;
     border: 0px solid black;
-    background-image: url(/image/icons8-mail-30.png);
+    background-image: url(/image/7101527_gmail_email_mail_icon.png);
     background-size: contain;
 }
 .buttonstore{
@@ -98,8 +100,12 @@ body{
     bottom: 3vh;
     overflow: hidden;
 }
+
 .hireme{
     z-index: 3;
+}
+.btnhire:hover{
+    color: black;
 }
 .circle1{
     margin: 50px;
@@ -114,8 +120,8 @@ body{
     border-radius: 50%;
     z-index: 1;
     position: absolute;
-    width: 4vw;
-    height: 4vw;
+    width: 0vw;
+    height: 0vw;
     
 }
 .circle3{
@@ -123,8 +129,8 @@ body{
     border-radius: 50%;
     z-index: 0;
     position: absolute;
-    width: 10vw;
-    height: 10vw;
+    width: 0vw;
+    height: 0vw;
 }
 
 

@@ -17,11 +17,11 @@
             <h2 class="portf">Portfolio.</h2>
             <ul class="navelements">
                     <button id="darkmode" value="false"></button>
-                <li><a href="#Home" class="navelement1">Home</a></li>
-                <li><a href="#Projects" class="navelement1">Projects</a></li>
-                <li><a href="#Skils" class="navelement1">skills</a></li>
-                <li><a href="#Contact" class="navelement1">Contact</a></li>
-                
+                <a href="#Home" class="navelement1 active" >Home</a>
+                <a href="#Projects" class="navelement1">Projects</a>
+                <a href="#Skils" class="navelement1">skills</a>
+                <a href="#Contact" class="navelement1">Contact</a>
+
             </ul>
         </nav>
     </header>
@@ -31,14 +31,14 @@
             <span class="circle1" id="cir1"></span>
             <span class="circle2" id="cir2"></span>
             <span class="circle3" id="cir3"></span>
-          </button>          
-          <div id="revealhire">
+        </button>          
+        <div id="revealhire">
             <div class="buttonstore">
                 <button type="submit" id="mail"></button>
                 <button type="submit" id="cv"></button>
             </div>
-          </div>
-          <section id="shootingstar">
+        </div>
+        <section id="shootingstar">
             <span class="bt" id="s1"></span>
             <span class="bt" id="s2"></span>
             <span class="bt" id="s3"></span>
@@ -50,7 +50,8 @@
             <span class="bt" id="s9"></span>
             <span class="bt" id="s10"></span>
         </section>
-          <section class="firstsection header-visible" id="first">
+          <section class="firstsection header-visible scrolltest" id="Home">
+              <div id="hide"></div>
             <div class="textbox1 fs">
                 <h1 class="textsouvick">SOUVICK</h1>
             </div>
@@ -82,7 +83,11 @@
                         <img src="/image/binary.png" id="binary" alt="" class="w2">
                         <img src="/image/c.png" id="c" alt="" class="w1">
                         <img src="/image/code (1).png" class="w3" id="code1" alt="">
-                        <button id="filpaagin"><h1 style="transform: rotateZ(-20deg);">Flip</h1></button>
+                        <button id="filpaagin" class="btnhire"><h1 style="transform: rotateZ(-20deg);" id="filp1">Flip</h1>
+                            <span class="circle1" id="cirfilp1"></span>
+                            <span class="circle2" id="cirfilp2"></span>
+                            <span class="circle3" id="cirfilp3"></span>
+                        </button>
                         <img src="/image/code (2).png" id="code2" alt="" class="w1">
                         <img src="/image/icons8-react-native-100.png" id="react" alt="" class="w2">
                         <img src="/image/mysql.png" class="w3" id="mysql" alt="">
@@ -101,7 +106,7 @@
                 <img src="/image/image_search_1707480633395-removebg-preview.png" id="moon1" alt="">
             </section>
         </section>
-        <section class="secondsection" id="second">
+        <section class="secondsection scrolltest" id="Projects">
             <section class="secondleft">
                 <div id="second11">
                     <div id="linee"></div>
@@ -127,21 +132,22 @@
                     </div>
                 </div>
             </section>
-            <section class="secondright">
+            <section class="secondright scrolltest">
                 <div id="second22">
 
                 </div>
             </section>
         </section>
-        <section class="thirdsection" id="third">
+        <section class="thirdsection scrolltest" id="Skils">
             
         </section>
-        <section class="thirdsection" id="forth">
+        <section class="thirdsection scrolltest" id="Contact">
             
         </section>
     </main>
     <script src="/index.js"></script>
     <script src="/dark.js"></script>
     <script src="/secondsection.js"></script>
+    <script src="/index2.js"></script>
 </body>
 </html>
