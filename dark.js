@@ -71,7 +71,6 @@ const darkk = () => {
   let navc=document.getElementsByClassName("navelement1");
   for (let index = 0; index < navc.length; index++) {
     navc[index].style.color = "rgb(52, 132, 164)";
-    
   }
 };
 
